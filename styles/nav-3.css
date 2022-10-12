@@ -13,11 +13,17 @@
     color: aliceblue;
 }
 
-.logo {
-    margin: 0;
-    text-transform: uppercase;
-   
+.logo img {
+    margin: 2px;
+    width: 50px;
+    border-radius: 50px;
 }
+
+.nav-right {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 nav ul li {
     list-style: none;
@@ -30,10 +36,14 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul button{
-    padding: 5px 12px;
+.nav-right button {
+    width: 90px;
+    height: 30px;
+    padding: 8px 20px;
     border-radius: 20px;
     background-color: #00838f;
     color: #fff;
     border: 0px;
+    margin-top: 10px;
+
 }
